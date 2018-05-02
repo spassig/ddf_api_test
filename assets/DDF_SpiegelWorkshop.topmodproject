@@ -1,0 +1,183 @@
+{
+  "content": {
+    "version": "1.12",
+    "meta": {
+      "filepath": "/Benutzer-Homes/comsulting/",
+      "saveTime": "2017-12-13 21:49:21"
+    },
+    "settings": {
+      "mainAnalysisId": "0920013702",
+      "preFilters": {
+        "Index": 0,
+        "elements": [
+          {
+            "storeType": "TargetAudience",
+            "version": "1.0",
+            "content": {
+              "key": "1M",
+              "title": "Männer",
+              "type": "A",
+              "longTitle": "Männer",
+              "shortTitle": "Männer",
+              "original": "",
+              "min": "",
+              "max": "",
+              "modifier": "",
+              "heading": ""
+            }
+          }
+        ]
+      },
+      "targetAudiences": {
+        "Index": 0,
+        "elements": [
+          {
+            "storeType": "TargetAudience",
+            "version": "1.0",
+            "content": {
+              "title": "14 - 19 Jahre UND Familienstand: Ledig",
+              "type": "$AND",
+              "longTitle": "14 - 19 Jahre UND Familienstand: Ledig",
+              "shortTitle": "14 - 19 Jahre UND Familienstand: Ledig",
+              "items": [
+                {
+                  "type": "A",
+                  "key": "1A1419",
+                  "shortTitle": "14 - 19 Jahre",
+                  "longTitle": "14 - 19 Jahre"
+                },
+                {
+                  "type": "A",
+                  "key": "AG23A",
+                  "shortTitle": "Ledig",
+                  "longTitle": "Familienstand: Ledig"
+                }
+              ],
+              "original": "",
+              "min": "",
+              "max": "",
+              "modifier": "",
+              "heading": ""
+            }
+          }
+        ]
+      },
+      "mainPeriod": {
+        "storeType": "PeriodsModel",
+        "content": {
+          "ranges": [
+            [
+              {
+                "count": 1,
+                "type": "month"
+              }
+            ]
+          ],
+          "average": "none"
+        }
+      },
+      "periods": {
+        "elements": []
+      },
+      "tariffSettings": {
+        "storeType": "TariffSettings",
+        "content": {
+          "gross": true,
+          "agencyCommission": 0,
+          "cashDiscount": 0,
+          "vat": 0,
+          "rateCard": {
+            "date": "2017-12-13T20:24:42.451Z",
+            "dateRule": "MostRecentOfYear",
+            "allowIgnoreDate": false,
+            "daysOfWeek": []
+          },
+          "online": {
+            "adFormat": "",
+            "altAdFormat": "",
+            "pricing": "Cpm"
+          }
+        }
+      },
+      "projectTariffSettings": {
+        "storeType": "ProjectTariffSettings",
+        "content": {
+          "calculation": {
+            "discountcalcmode": "brutto"
+          },
+          "year": {
+            "mode": "year",
+            "year": 2017
+          },
+          "magazine": {
+            "format": "A1_1@1.000000",
+            "alternativeformat": "A1_1@1.000000",
+            "bleed": false,
+            "equipment": "FourColor"
+          },
+          "newspaper": {
+            "mode": "page_share",
+            "page_share": "A1_1@1.000000",
+            "equipment": "FourColor"
+          },
+          "radio": {
+            "spot_length": 30
+          },
+          "tv": {
+            "spot_length": 30
+          },
+          "online": {
+            "placeholder": "foo"
+          }
+        }
+      }
+    },
+    "presets": [],
+    "evaluations": [
+      {
+        "type": "Ranking",
+        "title": "Rangreihe",
+        "description": "Die Rangreihe dient zum Leistungs&shy;vergleich von Medien in einer oder mehreren Ziel&shy;gruppen auf der Basis von einer Voll&shy;belegung. Die Rang&shy;reihe kann nach allen Kriterien sortiert werden.",
+        "icon": "/static/frontend/images//icons/eval_ranking.png",
+        "hidden": false,
+        "newTitle": "Neue Rangreihe",
+        "audienceLabel": "Zielgruppe",
+        "widget": "topnext-widgetsTableView",
+        "originalTitle": "Rangreihe",
+        "columns": [],
+        "subcolumns": [
+          "CONDITION_MARKING",
+          "UNWEIGHTED_CASES",
+          "UNIQUE_USER_PERCENT_BY_COL",
+          "UNIQUE_USER_MILLION",
+          "USER_SHARE_PERCENT_BY_ROW",
+          "AFFINITY_INDEX",
+          "CONTACTS_MILLION",
+          "CONTACTS_SHARE_PERCENT_BY_ROW",
+          "OTS",
+          "CPM",
+          "ACTUAL_AD_FORMAT",
+          "ACTUAL_PRICING",
+          "MEDIA_SPEC_CONTEXT",
+          "REFERRER_STATUS"
+        ],
+        "rows": [
+          {
+            "type": "MO",
+            "key": "AGOF_dga11fre",
+            "shortTitle": "11FREUNDE EMS",
+            "longTitle": "11FREUNDE EMS (df Gesamt)"
+          }
+        ],
+        "conditionSettings": {
+          "id": "NO_CONDITION",
+          "set": [],
+          "type": "",
+          "name": "Keine Priorität/Markierung"
+        },
+        "userDefinedColumns": []
+      }
+    ],
+    "plans": []
+  }
+}
